@@ -1,7 +1,16 @@
+import { Routes,Route } from "react-router-dom"
+
 const App = () => {
   return (
-    <div className="bg-red-400 text-white">Hello</div>
-  )
+		<Routes>
+			<Route path="" />
+			<Route path="" />
+			<Route path="" />
+			<Route path="" />
+			<Route path="" />
+			<Route path="" />
+		</Routes>
+	);
 }
 
 export default App
