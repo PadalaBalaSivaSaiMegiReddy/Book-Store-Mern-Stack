@@ -9,7 +9,7 @@ app.use(express.json())
 
 
 app.get("/",(req,res)=>{
-    res.send("Successfully running on the server")
+    res.send("Welocme to Book API")
 })
 
 app.use("/books", bookRouter);
