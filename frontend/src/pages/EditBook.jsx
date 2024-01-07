@@ -23,7 +23,7 @@ const EditBook = () => {
       console.log(err)
       alert('Error in fetching book. Please check console for details')
     })
-  },[])
+  },[id])
 	const handleEditBook = () => {
 		const data = {
 			title,
